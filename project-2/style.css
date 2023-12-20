@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 130px 80px 0;
+}
+
+#left{
+    width: 45%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#left h1{
+    font-size: 100px;
+    font-weight: 400;
+    letter-spacing: -8px;
+    line-height: 100px;
+}
+
+#content{
+    width: 100%;
+}
+
+#colors{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 17px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+#colors h4{
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+#color1{
+    padding: 10px;
+    background-color: #70553D;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+#color2{
+    padding: 10px;
+    background-color: #353331;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+#content h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#content p{
+    font-size: 15px;
+    font-weight: 500;
+    opacity: .8;
+    width: 65%;
+    line-height: 24px;
+    margin-top: 18px;
+}
+
+#right{
+    width: 38%;
+    height: 100%;
+    position: relative;
+}
+
+#right img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+#price h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#price h5{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#price h5 i{
+    font-size: 11px;
+    color: goldenrod;
+}
+
+#circle{
+    height: 150px;
+    width: 150px;
+    background-color: #222222;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    right: -17%;
+}
+
+#circle h5{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#rotated {
+    position: absolute;
+    font-size: 25px;
+    font-weight: 500;
+    rotate: -90deg;
+    bottom: 26%;
+    left: -33%;
+}
