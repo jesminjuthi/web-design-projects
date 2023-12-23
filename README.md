@@ -21,3 +21,11 @@
 ![Design Screenshot](https://i.ibb.co/zGNRGWK/screencapture-127-0-0-1-5500-project-3-index-html-2023-12-22-02-53-13.png)
 
 ---
+
+---
+
+#### Trendline
+
+![Design Screenshot](https://i.ibb.co/WVHCtcz/Screenshot-10.png)
+
+---
