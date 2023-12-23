@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #EFF0F0;
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    height: 25px;
+    width: 25px;
+    background-color: #2b2b2b;
+    border-radius: 50%;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#nav h4 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #2b2b2b;
+    cursor: pointer;
+}
+
+#nav h4 span {
+    color: #b9b9b9;
+    margin-left: 25px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    padding: 0 50px;
+    gap: 75px;
+}
+
+#menu h4 {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    color: #4d4d4d;
+}
+
+#sliders {
+    width: 100%;
+    height: calc(100% - 150px);
+}
+
+#slider1 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    overflow-x: auto;
+}
+
+#slider1::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+}
+
+#slider1::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+
+.items {
+    width: 85%;
+    flex-shrink: 0;
+    padding: 50px;
+    display: flex;
+    gap: 50px
+}
+
+.items h2{
+    font-size: 18px;
+}
+
+.item-text p{
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.item-text h1{
+    font-size: 100px;
+    font-weight: 400;
+}
+
+#slider2{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    overflow-x: auto;
+}
+
+#slider2::-webkit-scrollbar{
+    display: none;
+}
+
+#slider2 img{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 8%;
+}
+
+
+#slider2 img:last-child{
+    object-position: 0 25%;
+}
